@@ -13,7 +13,7 @@ describe("Loops tests cases", () => {
   });
 
   test("exercise 2: ชื่อร้านอาหารต้องแสดงออกมาอย่างถูกต้องตาม format ที่กำหนดให้", async () => {
-    const data = await fs.readFile("./ex-2.js");
+    const data = await fs.readFile("./ex-4.js");
     const code = `${data} return newRestaurants`;
 
     const func = new Function(code);
